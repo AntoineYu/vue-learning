@@ -26,5 +26,6 @@ export default {
 <style>
   .active{
     color: red;
+    font-size: 20px;
   }
 </style>
