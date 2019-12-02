@@ -18,5 +18,6 @@ new Vue({
   router,
   render: h => h(App)
 })
+console.log(router);
 
 //template -> ast -> render -> virtual dom -> UI
