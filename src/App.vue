@@ -9,7 +9,12 @@
     
     <!-- <button @click="linkToAbout">Acceuil</button>
     <button @click="linkToAcceuil">About</button> -->
-    <router-view></router-view>
+    <!-- exclude表示将该组件排除在外 和include
+    相反 -->
+    <!-- 不能随意加空格 -->
+    <keep-alive exclude="Profile,User">
+      <router-view/>
+    </keep-alive>
   </div>
 </template>
 

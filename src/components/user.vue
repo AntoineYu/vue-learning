@@ -8,6 +8,9 @@
 <script>
     export default{
         name: "User",
+        // created(){
+        //     document.title = 'User'
+        // },
         computed: {
             userId(){
                 return this.$route.params.userId

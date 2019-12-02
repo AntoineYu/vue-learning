@@ -6,6 +6,12 @@
   </div>
 </template>
 <script>
+export default{
+  name: 'Profile',
+  // created(){
+  //   document.title = 'Profile'
+  // }
+}
 </script>
 <style scoped>
 </style>
